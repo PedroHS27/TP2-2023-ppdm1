@@ -9,6 +9,7 @@ app.use(express.urlencoded({extended:false}))
 
 app.use(express.json())
 
+
 app.set('view engine','ejs')
 
 app.get('/', (req,res)=>{
