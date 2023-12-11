@@ -36,4 +36,5 @@ res.send("dados apagados com sucesso")
     res.send({erro: true, msg: "Rota não definida no servidor."})
 });
 
+
 app.listen(8080, () => console.log("O servidor está rodando em localhost:8080"))
